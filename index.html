@@ -5,9 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Validation</title>
     <link href="./styles.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet"/>
 </head>
 <body>
-    
+    <div class="form-container">
+        <div class="header-form">
+            <h2>Crear una cuenta.</h2>
+        </div>
+        <form class="form" id="form">
+            <div class="form-control">
+                <label>Nombre:</label>
+                <input type="text" placeholder="Ingresa tu nombre" id="username"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label>Email:</label>
+                <input type="email" placeholder="usuario@mail.com" id="email"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label>Fecha de Nacimiento:</label>
+                <input type="date" placeholder="Ingresa tu nombre" id="date-of-birth"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label>Password:</label>
+                <input type="password" placeholder="Ingresa tu nombre" id="password"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label>Confirma tu Password:</label>
+                <input type="password" placeholder="Ingresa tu nombre" id="confirm-password"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+        </form>
+    </div>
     
     <script src="./script.js"></script>
 </body>
