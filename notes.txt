@@ -1,0 +1,6 @@
+Maquetacion
+- HTML
+- CSS
+
+Validacion
+- JS
